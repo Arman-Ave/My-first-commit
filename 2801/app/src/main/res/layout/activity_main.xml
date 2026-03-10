@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnF1"
+        android:text="Задание 1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnF2"
+        android:text="Задание 2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnF3"
+        android:text="Задание 3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <FrameLayout
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
